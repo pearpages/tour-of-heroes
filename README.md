@@ -1,3 +1,10 @@
+## Resources
+
+- [Typescript Configuration](https://angular.io/docs/ts/latest/guide/typescript-configuration.html#!#tsconfig)
+- [Interpolation](The Executioner's Song)
+- [Forms](https://angular.io/docs/ts/latest/guide/forms.html#!#ngModel)
+- [Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html#!#ngModel)
+
 ## tsconfig.json
 
 The **tsconfig.json** file guides the TypeScript compiler.
