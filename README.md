@@ -50,3 +50,19 @@ Bootstrapping isn't core because there isn't a single way to bootstrap the app. 
 But it is possible to load a component in a different environment. We might load it on a mobile device with Apache Cordova or NativeScript. We might wish to render the first page of our application on the server to improve launch performance or facilitate SEO.
 
 These targets require a different kind of bootstrap function that we'd import from a different library.
+
+## index.html
+
+We began with Internet Explorer polyfills. IE requires polyfills to run an application that relies on ES2015 promises and dynamic module loading. Most applications need those capabilities and most applications should run in Internet Explorer.
+
+Next are the polyfills for Angular2, angular2-polyfills.js.
+
+Then the SystemJS library for module loading, followed by the Reactive Extensions RxJS library.
+
+Finally, we loaded the web development version of Angular 2 itself.
+
+We'll make different choices as we gain experience and become more concerned about production qualities such as load times and memory footprint.
+
+## SystemJS vs webpack
+
+The QuickStart uses SystemJS to load application and library modules. There are alternatives that work just fine including the well-regarded **webpack**. SystemJS happens to be a good choice but we want to be clear that it was a choice and not a preference.
