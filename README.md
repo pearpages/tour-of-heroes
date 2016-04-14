@@ -1,0 +1,1 @@
+The **tsconfig.json** file guides the TypeScript compiler.

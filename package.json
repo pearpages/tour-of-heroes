@@ -1,0 +1,19 @@
+{
+  "name": "tour-of-heroes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pearpages/tour-of-heroes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pearpages/tour-of-heroes/issues"
+  },
+  "homepage": "https://github.com/pearpages/tour-of-heroes#readme"
+}
