@@ -6,6 +6,7 @@
 - [Displaying Data](https://angular.io/docs/ts/latest/guide/displaying-data.html#ngFor)
 - [Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html#!#ngModel)
 - [User Input](https://angular.io/docs/ts/latest/guide/user-input.html)
+- [Structural Directives](https://angular.io/docs/ts/latest/guide/structural-directives.html)
 
 ## tsconfig.json
 

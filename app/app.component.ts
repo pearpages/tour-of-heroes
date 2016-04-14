@@ -4,15 +4,17 @@ import { Component } from 'angular2/core';
 	selector: 'my-app',
 	template: `
 	<h1>{{title}}</h1>
-	<h2>{{hero.name}} details!</h2>
-	<div><label for="">id: </label>{{hero.id}}</div>
-	<div>
-		<label for="">name: </label>
-		<input [(ngModel)]="hero.name" placeholder="name" />
+	<div *ngIf="selectedHero">
+		<h2>{{selectedHero.name}} details!</h2>
+		<div><label for="">id: </label>{{selectedHero.id}}</div>
+		<div>
+			<label for="">name: </label>
+			<input [(ngModel)]="selectedHero.name" placeholder="name" />
+		</div>
 	</div>
 	<h2>My Heroes</h2>
 	<ul class="heroes">
-		<li *ngFor="#hero of heroes" (click)="onSelect(hero)">
+		<li *ngFor="#hero of heroes" [class.selected]="hero === selectedHero" (click)="onSelect(hero)">
 			<span class="badge">{{hero.id}}</span> {{hero.name}}
 		</li>
 	</ul>
@@ -75,7 +77,7 @@ export class AppComponent {
 	heroes = HEROES;
 
 	onSelect(hero: Hero) {
-		
+		this.selectedHero = hero;	
 	}
 }
 
