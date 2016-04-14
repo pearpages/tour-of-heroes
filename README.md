@@ -1,9 +1,11 @@
 ## Resources
 
 - [Typescript Configuration](https://angular.io/docs/ts/latest/guide/typescript-configuration.html#!#tsconfig)
-- [Interpolation](The Executioner's Song)
+- [Interpolation](https://angular.io/docs/ts/latest/guide/displaying-data.html)
 - [Forms](https://angular.io/docs/ts/latest/guide/forms.html#!#ngModel)
+- [Displaying Data](https://angular.io/docs/ts/latest/guide/displaying-data.html#ngFor)
 - [Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html#!#ngModel)
+- [User Input](https://angular.io/docs/ts/latest/guide/user-input.html)
 
 ## tsconfig.json
 
