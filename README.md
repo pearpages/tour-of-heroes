@@ -21,3 +21,11 @@ We execute most npm scripts in the following way: ```npm run + script-name```. S
 - npm run typings
 - npm run postinstall
 
+## Behing a proxy
+
+Create the **.tyingsrc** file and add the following (editing the parameters):
+
+```
+proxy=http://proxy.example.com:8080
+rejectUnauthorized=false
+```
