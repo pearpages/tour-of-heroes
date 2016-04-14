@@ -29,3 +29,9 @@ Create the **.tyingsrc** file and add the following (editing the parameters):
 proxy=http://proxy.example.com:8080
 rejectUnauthorized=false
 ```
+
+## app.component.ts
+
+AppComponent is the root of the application.
+
+Every Angular app has at least one root component, conventionally named AppComponent, that hosts the client user experience.
