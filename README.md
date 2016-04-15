@@ -16,6 +16,8 @@
 - [Take It Slow](https://angular.io/docs/ts/latest/tutorial/toh-pt4.html#slow)
 - [Routing and Navigation](https://angular.io/docs/ts/latest/guide/router.html)
 - [Link Parameters](https://angular.io/docs/ts/latest/guide/router.html#link-parameters-array)
+- [routerCanDeactivate](https://angular.io/docs/ts/latest/api/router/CanDeactivate-interface.html)
+- [Pipes](https://angular.io/docs/ts/latest/guide/pipes.html)
 
 ## tsconfig.json
 
