@@ -14,6 +14,8 @@
 - [Promises](http://exploringjs.com/es6/ch_promises.html)
 - [Arrow Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [Take It Slow](https://angular.io/docs/ts/latest/tutorial/toh-pt4.html#slow)
+- [Routing and Navigation](https://angular.io/docs/ts/latest/guide/router.html)
+- [Link Parameters](https://angular.io/docs/ts/latest/guide/router.html#link-parameters-array)
 
 ## tsconfig.json
 
@@ -84,3 +86,12 @@ We'll make different choices as we gain experience and become more concerned abo
 
 The QuickStart uses SystemJS to load application and library modules. There are alternatives that work just fine including the well-regarded **webpack**. SystemJS happens to be a good choice but we want to be clear that it was a choice and not a preference.
 
+## Routing
+
+The Component Router is a service. Like any service, we have to import it and make it available to the application by adding it to the providers array.
+
+The Angular router is a combination of multiple services (ROUTER_PROVIDERS), multiple directives (ROUTER_DIRECTIVES), and a configuration decorator (RouteConfig). We'll import them all together:
+
+```typescript
+import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
+```
