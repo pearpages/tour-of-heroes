@@ -10,6 +10,8 @@
 - [Input Properties](https://angular.io/docs/ts/latest/guide/attribute-directives.html#why-input)
 - [Attribute Directives](https://angular.io/docs/ts/latest/guide/attribute-directives.html#input)
 - [Dependency Injection](https://angular.io/docs/ts/latest/guide/dependency-injection.html)
+- [LifeCycle Hooks](https://angular.io/docs/ts/latest/guide/lifecycle-hooks.html)
+- [Promises](http://exploringjs.com/es6/ch_promises.html)
 
 ## tsconfig.json
 
