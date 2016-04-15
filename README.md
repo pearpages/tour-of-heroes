@@ -9,6 +9,7 @@
 - [Structural Directives](https://angular.io/docs/ts/latest/guide/structural-directives.html)
 - [Input Properties](https://angular.io/docs/ts/latest/guide/attribute-directives.html#why-input)
 - [Attribute Directives](https://angular.io/docs/ts/latest/guide/attribute-directives.html#input)
+- [Dependency Injection](https://angular.io/docs/ts/latest/guide/dependency-injection.html)
 
 ## tsconfig.json
 
