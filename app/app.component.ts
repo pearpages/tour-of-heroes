@@ -82,7 +82,8 @@ export class AppComponent implements OnInit{
   constructor(private _heroService: HeroService) { }
 
   getHeroes() {
-    this.heroes = this._heroService.getHeroes();
+    // this.heroes = this._heroService.getHeroes(); before having a Promise
+    this._heroService.getHeroes().then(heroes => this.heroes = heroes);
   }
 
 	onSelect(hero: Hero) {

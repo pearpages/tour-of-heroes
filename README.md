@@ -12,6 +12,8 @@
 - [Dependency Injection](https://angular.io/docs/ts/latest/guide/dependency-injection.html)
 - [LifeCycle Hooks](https://angular.io/docs/ts/latest/guide/lifecycle-hooks.html)
 - [Promises](http://exploringjs.com/es6/ch_promises.html)
+- [Arrow Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [Take It Slow](https://angular.io/docs/ts/latest/tutorial/toh-pt4.html#slow)
 
 ## tsconfig.json
 
