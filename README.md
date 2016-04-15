@@ -7,6 +7,8 @@
 - [Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html#!#ngModel)
 - [User Input](https://angular.io/docs/ts/latest/guide/user-input.html)
 - [Structural Directives](https://angular.io/docs/ts/latest/guide/structural-directives.html)
+- [Input Properties](https://angular.io/docs/ts/latest/guide/attribute-directives.html#why-input)
+- [Attribute Directives](https://angular.io/docs/ts/latest/guide/attribute-directives.html#input)
 
 ## tsconfig.json
 
